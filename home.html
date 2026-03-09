@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <script src="https://cdn.jsdelivr.net/npm/three@0.126.1/build/three.min.js"></script>
+    </head>
+    <body>
+        <div id="projectsUI" style="
+            position:fixed;
+            top:20%;
+            left:50%;
+            transform:translateX(-50%);
+            background:white;
+            padding:30px;
+            display:none;
+            border-radius:10px;
+        ">
+            <h2>My Projects</h2>
+            <ul>
+                <li>Weather App</li>
+                <li>Skill Sharing Platform</li>
+                <li>Voice Assistant</li>
+                <li>Eye Mouse Project</li>
+            </ul>
+            <button onclick="closeProjects()">Close</button>
+        </div>
+
+        <div id="skillsUI" style="
+            position:fixed;
+            top:20%;
+            left:50%;
+            transform:translateX(-50%);
+            background:white;
+            padding:30px;
+            display:none;
+            border-radius:10px;
+        ">
+            <h2>My Skills</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Spring Boot</li>
+                <li>Node.js</li>
+            </ul>
+            <button onclick="closeSkills()">Close</button>
+        </div>
+
+        <div id="contactUI" style="
+            position:fixed;
+            top:20%;
+            left:50%;
+            transform:translateX(-50%);
+            background:white;
+            padding:30px;
+            display:none;
+            border-radius:10px;
+        ">
+            <h2>Contact</h2>
+            <ul>
+                <li>Email: akash@example.com</li>
+                <li>LinkedIn: linkedin.com/in/akash</li>
+                <li>GitHub: github.com/akash</li>
+            </ul>
+            <button onclick="closeContact()">Close</button>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/three@0.126.1/examples/js/loaders/GLTFLoader.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
